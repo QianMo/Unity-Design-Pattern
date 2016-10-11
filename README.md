@@ -8,9 +8,8 @@
 
 
 参考
-
-* [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
 * [http://gameprogrammingpatterns.com/]
+* [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
 * [https://github.com/Naphier/unity-design-patterns]
 
 
