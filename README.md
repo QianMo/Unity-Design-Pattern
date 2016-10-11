@@ -5,5 +5,14 @@
 * [Subclass Sandbox 子类沙盒模式]
 
 
+
+
+参考
+
+* [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
+* [http://gameprogrammingpatterns.com/]
+
+
 [State 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/SubclassSandbox
+
