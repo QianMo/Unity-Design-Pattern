@@ -11,6 +11,7 @@
 
 * [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
 * [http://gameprogrammingpatterns.com/]
+* [https://github.com/Naphier/unity-design-patterns]
 
 
 [State 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
