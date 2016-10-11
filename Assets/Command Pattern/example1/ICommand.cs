@@ -1,13 +1,15 @@
 ﻿//-------------------------------------------------------------------------------------
-//	HeroineBaseState.cs
+//	ICommand.cs
 //-------------------------------------------------------------------------------------
 
 using UnityEngine;
 using System.Collections;
 
-public interface HeroineBaseState
-{
-    void Update();
-    void HandleInputEx();
 
+// commands:
+// command interface:
+public interface ICommand
+{
+    void Execute();
+    void Undo();
 }

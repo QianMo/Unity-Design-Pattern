@@ -16,16 +16,10 @@ public class StandingState : HeroineBaseState
 
     public void Update()
     {
-//         Debug.Log("Handle StandingState Input~");
-//         if (KeyCode.UpArrow == input)
-//         {
-//             Debug.Log("Handle StandingState Input~ get KeyCode.UpArrow!");
-//             _heroine.SetHeroineState(new JumpingState(_heroine));
-//         }
-//         
+
     }
 
-    public void HandleInputEx()
+    public void HandleInput()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {

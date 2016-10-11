@@ -20,7 +20,7 @@ public class JumpingState : HeroineBaseState
 
     }
 
-    public void HandleInputEx()
+    public void HandleInput()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {

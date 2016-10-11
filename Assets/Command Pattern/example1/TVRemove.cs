@@ -1,21 +1,14 @@
 ﻿//-------------------------------------------------------------------------------------
-//	TestHeroine.cs
+//	TVRemove.cs
 //-------------------------------------------------------------------------------------
 
 using UnityEngine;
 using System.Collections;
 
-public class TestHeroine : MonoBehaviour
+public class TVRemove
 {
-    private Heroine _heroine = new Heroine();
-
-    void Start ( )
-	{
-
+    public static IElectronicDevice GetDevice()
+    {
+        return new Television();
     }
-
-	void Update ( )
-	{
-	   _heroine.Update();
-	}
 }

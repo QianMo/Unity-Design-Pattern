@@ -29,7 +29,7 @@ public class Heroine
 
     public void Update()
     {
-        _state.HandleInputEx();
+        _state.HandleInput();
     }
 
 }
