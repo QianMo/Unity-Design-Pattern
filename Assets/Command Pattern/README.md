@@ -6,7 +6,7 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 
 ##Participants
 
-    The classes and objects participating in this pattern are:
+The classes and objects participating in this pattern are:
 
 ###Command
 declares an interface for executing an operation
