@@ -9,7 +9,6 @@ This repo is about game design patterns in Unity,The design pattern has been imp
 * [Observer Pattern 观察者模式]
 * [Singleton Pattern 单例模式]
 * [Prototype Pattern 原型模式]
-
 * [Subclass Sandbox 子类沙盒模式]
 
 
