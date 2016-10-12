@@ -1,8 +1,10 @@
 # Unity3D Design Patterns
-This repo is about game design patterns in Unity,The design pattern has been implemented as follows(此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有):
+This repo is about game design patterns in Unity,The design pattern has been implemented as follows:
+(此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有):
 
-* [State 状态模式]
+
 * [Command Pattern 命令模式]
+* [State 状态模式]
 * [Flyweight Pattern 享元模式]
 * [Observer Pattern 观察者模式]
 * [Subclass Sandbox 子类沙盒模式]
