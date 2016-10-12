@@ -7,9 +7,7 @@ using System.Collections;
 
 public class PrototypeStructure : MonoBehaviour
 {
-    /// <summary>
-    /// Entry point into console application.
-    /// </summary>
+
     void Start( )
     {
         // Create two instances and clone each

@@ -30,9 +30,6 @@ using System.Collections;
 
 public class FlyweightStructure : MonoBehaviour
 {
-    /// <summary>
-    /// Entry point into console application.
-    /// </summary>
     void Start()
     {
         // Arbitrary extrinsic state(外部状态)

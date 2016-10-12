@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Chain of Responsibility Pattern\Structure\ChainOfResponsibilityStructure.cs" />
     <Compile Include="Assets\Command Pattern\example1\DeviceButton.cs" />
     <Compile Include="Assets\Command Pattern\example1\ICommand.cs" />
     <Compile Include="Assets\Command Pattern\example1\IElectronicDevice.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Command Pattern\example2\MoveCommand.cs" />
     <Compile Include="Assets\Command Pattern\example2\MoveCommandReceiver.cs" />
     <Compile Include="Assets\Flyweight Pattern\Structure\FlyweightStructure.cs" />
+    <Compile Include="Assets\Mediator Pattern\Structure\MediatorStructure.cs" />
     <Compile Include="Assets\Observer Pattern\Structure\ObserverStructure.cs" />
     <Compile Include="Assets\Prototype Pattern\Structure\PrototypeStructure.cs" />
     <Compile Include="Assets\Singleton Pattern\Structure\SingletonStructure.cs" />

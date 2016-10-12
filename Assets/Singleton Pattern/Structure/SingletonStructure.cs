@@ -8,9 +8,7 @@ using System.Collections.Generic;
 
 public class SingletonStructure : MonoBehaviour
 {
-    /// <summary>
-    /// Entry point into console application.
-    /// </summary>
+
     void Start()
     {
         // Constructor is protected -- cannot use new
