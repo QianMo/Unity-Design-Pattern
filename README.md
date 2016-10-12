@@ -9,6 +9,8 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 * [Observer Pattern 观察者模式]
 * [Singleton Pattern 单例模式]
 * [Prototype Pattern 原型模式]
+* [Composite Pattern 组合模式]
+* [Decorator Pattern 装饰模式]
 * [Chain of Responsibility Pattern 责任链模式]
 * [Mediator Pattern 中介者模式]
 * [Interpreter Pattern 解释器模式]
