@@ -85,6 +85,8 @@
     <Compile Include="Assets\Command Pattern\example2\MoveCommand.cs" />
     <Compile Include="Assets\Command Pattern\example2\MoveCommandReceiver.cs" />
     <Compile Include="Assets\Flyweight Pattern\Structure\FlyweightStructure.cs" />
+    <Compile Include="Assets\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
+    <Compile Include="Assets\Iterator Pattern\Structure\IteratorStructure.cs" />
     <Compile Include="Assets\Mediator Pattern\Structure\MediatorStructure.cs" />
     <Compile Include="Assets\Observer Pattern\Structure\ObserverStructure.cs" />
     <Compile Include="Assets\Prototype Pattern\Structure\PrototypeStructure.cs" />
