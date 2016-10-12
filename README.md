@@ -1,5 +1,5 @@
 # Unity3D Design Patterns
-此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有：
+This repo is about game design patterns in Unity,The design pattern has been implemented as follows(此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有):
 
 * [State 状态模式]
 * [Command Pattern 命令模式]
@@ -11,7 +11,7 @@
 
 
 
-参考
+##Reference resources(参考)
 * [http://gameprogrammingpatterns.com/]
 * [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
 * [https://github.com/Naphier/unity-design-patterns]
