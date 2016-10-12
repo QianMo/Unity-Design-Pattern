@@ -9,6 +9,8 @@ This repo is about game design patterns in Unity,The design pattern has been imp
 * [Observer Pattern 观察者模式]
 * [Singleton Pattern 单例模式]
 * [Prototype Pattern 原型模式]
+* [Chain of Responsibility Pattern 责任链模式]
+* [Mediator Pattern 中介者模式]
 * [Subclass Sandbox 子类沙盒模式]
 
 
@@ -28,6 +30,8 @@ This repo is about game design patterns in Unity,The design pattern has been imp
 [Observer Pattern 观察者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Observer%20Pattern
 [Singleton Pattern 单例模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Singleton%20Pattern
 [Prototype Pattern 原型模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Prototype%20Pattern
+[Chain of Responsibility Pattern 责任链模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Chain%20of%20Responsibility%20Pattern
+[Mediator Pattern 中介者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Mediator%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
 
 
