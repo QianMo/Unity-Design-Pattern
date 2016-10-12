@@ -88,6 +88,7 @@
     <Compile Include="Assets\Command Pattern\example2\MoveCommandReceiver.cs" />
     <Compile Include="Assets\Composite Pattern\Structure\CompositeStructure.cs" />
     <Compile Include="Assets\Decorator Pattern\Structure\DecoratorStructure.cs" />
+    <Compile Include="Assets\Facade Pattern\Structure\FacadeStructure.cs" />
     <Compile Include="Assets\Flyweight Pattern\Structure\FlyweightStructure.cs" />
     <Compile Include="Assets\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
     <Compile Include="Assets\Iterator Pattern\Structure\IteratorStructure.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\Memento Pattern\Structure\MementoStructure.cs" />
     <Compile Include="Assets\Observer Pattern\Structure\ObserverStructure.cs" />
     <Compile Include="Assets\Prototype Pattern\Structure\PrototypeStructure.cs" />
+    <Compile Include="Assets\Proxy Pattern\Structure\ProxyStructure.cs" />
     <Compile Include="Assets\Singleton Pattern\Structure\SingletonStructure.cs" />
     <Compile Include="Assets\State Pattern\exmaple2\ATMMachine.cs" />
     <Compile Include="Assets\State Pattern\exmaple2\ATMState.cs" />
