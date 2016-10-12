@@ -2,9 +2,8 @@
 This repo is about implementation of game design patterns in Unity3D.
 <br> (此repo为Unity3D中各种游戏设计模式的实践与运用。实现了《设计模式:可复用面向对象软件的基础》一书中提出的23种设计模式，以及《游戏编程模式》一书中介绍的常用游戏设计模式)。
 <br> 
-## Gang of Four Patterns
+## Gang of Four Patterns GOF设计模式部分
 ### Behavioral Patterns 行为型模式
-
 * [Command Pattern 命令模式]
 * [State Pattern 状态模式]
 * [Observer Pattern 观察者模式]
@@ -19,7 +18,6 @@ This repo is about implementation of game design patterns in Unity3D.
 
 
 ### Structural Patterns 结构型模式
-
 * [Adapter Pattern 适配器模式]
 * [Bridge Pattern 桥接模式]
 * [Composite Pattern 组合模式]
@@ -30,21 +28,20 @@ This repo is about implementation of game design patterns in Unity3D.
 
 
 ### Creational Patterns 创建型模式
-
 * [Prototype Pattern 原型模式]
 * [Singleton Pattern 单例模式]
 
+<br> 
+<br> 
 
-
-
-## Game Patterns 游戏设计模式
+## Game Patterns 游戏设计模式部分
 * [Subclass Sandbox 子类沙盒模式]
 
 
-
-
+<br> 
 
 ##Reference resources(参考)
+
 * [http://gameprogrammingpatterns.com/]
 * [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
 * [https://github.com/Naphier/unity-design-patterns]
