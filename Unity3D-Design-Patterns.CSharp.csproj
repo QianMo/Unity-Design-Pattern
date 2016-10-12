@@ -56,6 +56,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -79,6 +85,8 @@
     <Compile Include="Assets\Command Pattern\example2\MoveCommandReceiver.cs" />
     <Compile Include="Assets\Flyweight Pattern\Structure\FlyweightStructure.cs" />
     <Compile Include="Assets\Observer Pattern\Structure\ObserverStructure.cs" />
+    <Compile Include="Assets\Prototype Pattern\Structure\PrototypeStructure.cs" />
+    <Compile Include="Assets\Singleton Pattern\Structure\SingletonStructure.cs" />
     <Compile Include="Assets\State Pattern\exmaple2\ATMMachine.cs" />
     <Compile Include="Assets\State Pattern\exmaple2\ATMState.cs" />
     <Compile Include="Assets\State Pattern\exmaple2\HasCard.cs" />
