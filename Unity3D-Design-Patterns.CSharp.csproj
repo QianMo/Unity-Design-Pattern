@@ -86,6 +86,8 @@
     <Compile Include="Assets\Command Pattern\example2\InputHandler.cs" />
     <Compile Include="Assets\Command Pattern\example2\MoveCommand.cs" />
     <Compile Include="Assets\Command Pattern\example2\MoveCommandReceiver.cs" />
+    <Compile Include="Assets\Composite Pattern\Structure\CompositeStructure.cs" />
+    <Compile Include="Assets\Decorator Pattern\Structure\DecoratorStructure.cs" />
     <Compile Include="Assets\Flyweight Pattern\Structure\FlyweightStructure.cs" />
     <Compile Include="Assets\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
     <Compile Include="Assets\Iterator Pattern\Structure\IteratorStructure.cs" />
