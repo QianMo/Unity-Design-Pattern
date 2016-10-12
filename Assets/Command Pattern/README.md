@@ -2,7 +2,7 @@
 ##Definition
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
-![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/Assets/Tools/UML_Picture/command.gif) 
+![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/command.gif) 
 
 ##Participants
 
