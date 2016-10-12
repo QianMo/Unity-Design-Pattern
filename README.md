@@ -17,6 +17,8 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 * [Strategy Pattern 策略模式]
 * [Template Method Pattern 模板方法模式]
 * [Visitor Pattern 访问者模式]
+* [Adapter Pattern 适配器模式]
+* [Bridge Pattern 桥接模式]
 * [Subclass Sandbox 子类沙盒模式]
 
 
