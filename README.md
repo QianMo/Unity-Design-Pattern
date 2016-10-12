@@ -13,6 +13,10 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 * [Mediator Pattern 中介者模式]
 * [Interpreter Pattern 解释器模式]
 * [Iterator Pattern 迭代器模式]
+* [Memento Pattern 备忘录模式]
+* [Strategy Pattern 策略模式]
+* [Template Method Pattern 模板方法模式]
+* [Visitor Pattern 访问者模式]
 * [Subclass Sandbox 子类沙盒模式]
 
 
@@ -36,6 +40,11 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 [Mediator Pattern 中介者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Mediator%20Pattern
 [Interpreter Pattern 解释器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Interpreter%20Pattern
 [Iterator Pattern 迭代器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Iterator%20Pattern
+[Memento Pattern 备忘录模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Memento%20Pattern
+[Strategy Pattern 策略模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Strategy%20Pattern
+[Template Method Pattern 模板方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Template%20Method%20Pattern
+[Visitor Pattern 访问者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Visitor%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
+
 
 
