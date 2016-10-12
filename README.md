@@ -37,7 +37,7 @@ This repo is about implementation of game design patterns in Unity3D.
 
 
 
-### Game Patterns 游戏设计模式
+## Game Patterns 游戏设计模式
 * [Subclass Sandbox 子类沙盒模式]
 
 
