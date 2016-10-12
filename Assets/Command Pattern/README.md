@@ -8,16 +8,16 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 
 The classes and objects participating in this pattern are:
 
-###Command
+###* Command
 declares an interface for executing an operation
-###ConcreteCommand  (CalculatorCommand)
+###* ConcreteCommand
 defines a binding between a Receiver object and an action
 implements Execute by invoking the corresponding operation(s) on Receiver
-###Client 
+###* Client 
 creates a ConcreteCommand object and sets its receiver
-###Invoker
+###* Invoker
 asks the command to carry out the request
-###Receiver
+###* Receiver
 knows how to perform the operations associated with carrying out the request.
 
 
