@@ -56,12 +56,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -88,6 +82,7 @@
     <Compile Include="Assets\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
     <Compile Include="Assets\Iterator Pattern\Structure\IteratorStructure.cs" />
     <Compile Include="Assets\Mediator Pattern\Structure\MediatorStructure.cs" />
+    <Compile Include="Assets\Memento Pattern\Structure\MementoStructure.cs" />
     <Compile Include="Assets\Observer Pattern\Structure\ObserverStructure.cs" />
     <Compile Include="Assets\Prototype Pattern\Structure\PrototypeStructure.cs" />
     <Compile Include="Assets\Singleton Pattern\Structure\SingletonStructure.cs" />
@@ -105,11 +100,14 @@
     <Compile Include="Assets\State Pattern\exmaple3\JumpingState.cs" />
     <Compile Include="Assets\State Pattern\exmaple3\StandingState.cs" />
     <Compile Include="Assets\State Pattern\exmaple3\TestHeroine.cs" />
+    <Compile Include="Assets\Strategy Pattern\Structure\StrategyStructure.cs" />
     <Compile Include="Assets\SubclassSandbox Pattern\FlashSpeed.cs" />
     <Compile Include="Assets\SubclassSandbox Pattern\GroundDive.cs" />
     <Compile Include="Assets\SubclassSandbox Pattern\SkyLaunch.cs" />
     <Compile Include="Assets\SubclassSandbox Pattern\SuperPower.cs" />
     <Compile Include="Assets\SubclassSandbox Pattern\TestSubclassSandbox.cs" />
+    <Compile Include="Assets\Template Method Pattern\Structure\TemplateMethodStructure.cs" />
+    <Compile Include="Assets\Visitor Pattern\Structure\VisitorStructure.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
