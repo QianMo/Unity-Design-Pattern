@@ -1,24 +1,9 @@
 # Unity3D Design Patterns
 This repo is about implementation of game design patterns in Unity3D,The design patterns which have been implemented as follows:
 <br> (此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有):
+<br> 
 
-## Creational Patterns 创建型模式
-
-* [Prototype Pattern 原型模式]
-* [Singleton Pattern 单例模式]
-
-
-## Structural Patterns 结构型模式
-
-* [Adapter Pattern 适配器模式]
-* [Bridge Pattern 桥接模式]
-* [Composite Pattern 组合模式]
-* [Decorator Pattern 装饰模式]
-* [Facade Pattern 外观模式]
-* [Flyweight Pattern 享元模式]
-* [Proxy Pattern 代理模式]
-
-## Behavioral Patterns 行为型模式
+### Behavioral Patterns 行为型模式
 
 * [Command Pattern 命令模式]
 * [State Pattern 状态模式]
@@ -32,7 +17,27 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 * [Template Method Pattern 模板方法模式]
 * [Visitor Pattern 访问者模式]
 
-## Game Patterns
+
+### Structural Patterns 结构型模式
+
+* [Adapter Pattern 适配器模式]
+* [Bridge Pattern 桥接模式]
+* [Composite Pattern 组合模式]
+* [Decorator Pattern 装饰模式]
+* [Facade Pattern 外观模式]
+* [Flyweight Pattern 享元模式]
+* [Proxy Pattern 代理模式]
+
+
+### Creational Patterns 创建型模式
+
+* [Prototype Pattern 原型模式]
+* [Singleton Pattern 单例模式]
+
+
+
+
+### Game Patterns 游戏设计模式
 * [Subclass Sandbox 子类沙盒模式]
 
 
