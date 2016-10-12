@@ -4,7 +4,7 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 
 
 * [Command Pattern 命令模式]
-* [State 状态模式]
+* [State Pattern 状态模式]
 * [Flyweight Pattern 享元模式]
 * [Observer Pattern 观察者模式]
 * [Singleton Pattern 单例模式]
@@ -32,7 +32,7 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 * [http://www.dofactory.com/net/design-patterns]
 
 
-[State 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
+[State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
 [Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Command%20Pattern
 [Flyweight Pattern 享元模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Flyweight%20Pattern
 [Observer Pattern 观察者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Observer%20Pattern
@@ -48,6 +48,8 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 [Visitor Pattern 访问者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Visitor%20Pattern
 [Adapter Pattern 适配器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Adapter%20Pattern
 [Bridge Pattern 桥接模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Bridge%20Pattern
+[Composite Pattern 组合模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Composite%20Pattern
+[Decorator Pattern 装饰模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Decorator%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
 
 
