@@ -56,11 +56,19 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Adapter Pattern\Structure\AdapterStructure.cs" />
+    <Compile Include="Assets\Bridge Pattern\Structure\BridgeStructure.cs" />
     <Compile Include="Assets\Chain of Responsibility Pattern\Structure\ChainOfResponsibilityStructure.cs" />
     <Compile Include="Assets\Command Pattern\example1\DeviceButton.cs" />
     <Compile Include="Assets\Command Pattern\example1\ICommand.cs" />
