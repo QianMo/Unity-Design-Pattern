@@ -10,6 +10,8 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 * [Singleton Pattern 单例模式]
 * [Prototype Pattern 原型模式]
 * [Composite Pattern 组合模式]
+* [Facade Pattern 外观模式]
+* [Proxy Pattern 代理模式]
 * [Decorator Pattern 装饰模式]
 * [Chain of Responsibility Pattern 责任链模式]
 * [Mediator Pattern 中介者模式]
@@ -52,6 +54,8 @@ This repo is about implementation of game design patterns in Unity3D,The design 
 [Bridge Pattern 桥接模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Bridge%20Pattern
 [Composite Pattern 组合模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Composite%20Pattern
 [Decorator Pattern 装饰模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Decorator%20Pattern
+[Facade Pattern 外观模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Facade%20Pattern
+[Proxy Pattern 代理模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Proxy%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
 
 
