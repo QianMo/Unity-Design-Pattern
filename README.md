@@ -1,6 +1,6 @@
 # Unity3D Design Patterns
 This repo is about game design patterns in Unity,The design pattern has been implemented as follows:
-(此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有):
+\<br> (此repo为Unity3D中各种游戏设计模式的实践与运用，目前已经实现的模式有):
 
 
 * [Command Pattern 命令模式]
