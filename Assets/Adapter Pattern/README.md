@@ -1,4 +1,4 @@
-# Adapter Pattern适配器模式
+# Adapter Pattern 适配器模式
 ##Definition
 Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 <br>将一个类的接口转换成客户希望的另外一个接口。适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
