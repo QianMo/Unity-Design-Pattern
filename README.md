@@ -1,4 +1,4 @@
-#Design Patterns in Unity3D
+#Design Patterns Written in Unity3D
 This repository is about cool design patterns in Unity3D. 
 * Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.
 * Each pattern contains the corresponding structure implementation, application examples and diagrams. Same way with [Naphier/unity-design-patterns], in this repository each pattern is contained in a separate folder.Inside these are a folder ("Structure") to show what classes are used in the pattern's structure in Unity3D(with a scene) and a folder or folders ("Example") showing one or more real-world example of using the pattern in Unity3D along with a scene showing it in action.Each pattern folder may contain one or more Example.
@@ -9,7 +9,7 @@ This repository is about cool design patterns in Unity3D.
 * 每种模式都包含对应的结构实现、应用示例以及图示介绍。类似[Naphier/unity-design-patterns]的结构，此repo中的每种模式用单独的文件夹分开。每种模式对应的文件夹中包含了名为“Structure”的子文件夹，里面存放的是此模式在Unity中的使用代码的基本框架实现，而另外包含的Example子文件夹中存放的是此模式在Unity中使用的实际示例。每种框架实现或实例示例实现都包含对应的场景，每种模式文件夹中可能包含一个或者多个Example。
 * 即将更新《[游戏编程模式]》一书中介绍的常用游戏设计模式的Unity版实现。
 
-<br> 
+#Contents
 ## Gang of Four Patterns in Unity （23种GOF设计模式的Unity实现）
 ### Behavioral Patterns 行为型模式
 * [Command Pattern 命令模式]
