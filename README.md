@@ -58,7 +58,8 @@ This repository is about implementation of game design patterns in Unity3D.
 * [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
 * [https://github.com/Naphier/unity-design-patterns]
 * [http://www.dofactory.com/net/design-patterns]
-
+* [Gang of Four Patterns]
+* [Head First Design Patterns]
 
 [State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
 [Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Command%20Pattern
@@ -88,5 +89,5 @@ This repository is about implementation of game design patterns in Unity3D.
 [Game Programming Patterns]:http://gameprogrammingpatterns.com/
 [设计模式:可复用面向对象软件的基础]:https://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%9B%E4%B9%A6-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8F%AF%E5%A4%8D%E7%94%A8%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80-Erich-Gamma/dp/B001130JN8/ref=sr_1_1?ie=UTF8&qid=1476338390&sr=8-1&keywords=%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F
 [游戏编程模式]:http://gameprogrammingpatterns.com/
-
+[Head First Design Patterns]:https://www.amazon.com/dp/0596007124//ref=cm_sw_su_dp?tag=nethta-20
 
