@@ -31,6 +31,9 @@ This repo is about implementation of game design patterns in Unity3D.
 ### Creational Patterns 创建型模式
 * [Prototype Pattern 原型模式]
 * [Singleton Pattern 单例模式]
+* [Abstract Factory Pattern 抽象工厂模式]
+* [Builder Pattern建造者模式]
+* [Factory Method Pattern 工厂方法模式]
 
 <br> 
 <br> 
@@ -69,6 +72,9 @@ This repo is about implementation of game design patterns in Unity3D.
 [Decorator Pattern 装饰模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Decorator%20Pattern
 [Facade Pattern 外观模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Facade%20Pattern
 [Proxy Pattern 代理模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Proxy%20Pattern
+[Abstract Factory Pattern 抽象工厂模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Abstract%20Factory%20Pattern
+[Builder Pattern建造者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Builder%20Pattern
+[Factory Method Pattern 工厂方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Factory%20Method%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
 
 
