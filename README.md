@@ -11,7 +11,7 @@ This repository is about implementation of game design patterns in Unity3D.
 
 <br> 
 #Contents
-## Gang of Four Patterns in Unity （23种GOF设计模式部分）
+## Gang of Four Patterns in Unity （23种GOF设计模式的Unity实现）
 ### Behavioral Patterns 行为型模式
 * [Command Pattern 命令模式]
 * [State Pattern 状态模式]
@@ -45,7 +45,7 @@ This repository is about implementation of game design patterns in Unity3D.
 
 <br> 
 
-## Game Programming Patterns in Unity （游戏设计模式部分）
+## Game Programming Patterns in Unity （游戏设计模式的Unity实现）
 * [Subclass Sandbox 子类沙盒模式]
 
 
