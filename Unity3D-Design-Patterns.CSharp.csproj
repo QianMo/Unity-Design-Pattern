@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Abstract Factory Pattern\Structure\AbstractFactoryStructrue.cs" />
     <Compile Include="Assets\Adapter Pattern\Structure\AdapterStructure.cs" />
     <Compile Include="Assets\Bridge Pattern\Structure\BridgeStructure.cs" />
+    <Compile Include="Assets\Builder Pattern\Structure\BuilderStructure.cs" />
     <Compile Include="Assets\Chain of Responsibility Pattern\Structure\ChainOfResponsibilityStructure.cs" />
     <Compile Include="Assets\Command Pattern\example1\DeviceButton.cs" />
     <Compile Include="Assets\Command Pattern\example1\ICommand.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Assets\Composite Pattern\Structure\CompositeStructure.cs" />
     <Compile Include="Assets\Decorator Pattern\Structure\DecoratorStructure.cs" />
     <Compile Include="Assets\Facade Pattern\Structure\FacadeStructure.cs" />
+    <Compile Include="Assets\Factory Method Pattern\FactoryMethodStructure.cs" />
     <Compile Include="Assets\Flyweight Pattern\Structure\FlyweightStructure.cs" />
     <Compile Include="Assets\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
     <Compile Include="Assets\Iterator Pattern\Structure\IteratorStructure.cs" />
