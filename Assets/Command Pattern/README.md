@@ -1,4 +1,4 @@
-# Command Pattern命令模式
+# Command Pattern 命令模式
 ##Definition
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 <br>命令模式将“请求”封装成对象，以便使用不同的请求、队列或者日志来参数化其他对象，同时支持可撤消的操作。
