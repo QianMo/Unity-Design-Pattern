@@ -63,8 +63,6 @@ This repository is about cool design patterns written in Unity3D C#.
 [Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Command%20Pattern
 [Flyweight Pattern 享元模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Flyweight%20Pattern
 [Observer Pattern 观察者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Observer%20Pattern
-[Singleton Pattern 单例模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Singleton%20Pattern
-[Prototype Pattern 原型模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Prototype%20Pattern
 [Chain of Responsibility Pattern 责任链模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Chain%20of%20Responsibility%20Pattern
 [Mediator Pattern 中介者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Mediator%20Pattern
 [Interpreter Pattern 解释器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Interpreter%20Pattern
@@ -79,9 +77,12 @@ This repository is about cool design patterns written in Unity3D C#.
 [Decorator Pattern 装饰模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Decorator%20Pattern
 [Facade Pattern 外观模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Facade%20Pattern
 [Proxy Pattern 代理模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Proxy%20Pattern
-[Abstract Factory Pattern 抽象工厂模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Abstract%20Factory%20Pattern
-[Builder Pattern 建造者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Builder%20Pattern
-[Factory Method Pattern 工厂方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Factory%20Method%20Pattern
+[Abstract Factory Pattern 抽象工厂模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Abstract%20Factory%20Pattern
+[Builder Pattern 建造者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Builder%20Pattern
+[Factory Method Pattern 工厂方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Factory%20Method%20Pattern
+[Prototype Pattern 原型模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Prototype%20Pattern
+[Singleton Pattern 单例模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Singleton%20Pattern
+
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
 [Gang of Four Patterns]:https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1476338345&sr=8-1&keywords=design+patterns
 [Game Programming Patterns]:http://gameprogrammingpatterns.com/
