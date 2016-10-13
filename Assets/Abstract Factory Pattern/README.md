@@ -1,7 +1,7 @@
 # Command Pattern
 ##Definition
-	Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-	Frequency of use:High
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+Frequency of use:High
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/abstract.gif)
 
 
