@@ -3,7 +3,7 @@ This repository is about implementation of game design patterns in Unity3D. Now 
 <br> (此repo为Unity3D中各种游戏设计模式的实践与运用。在Unity中实现了《[设计模式:可复用面向对象软件的基础]》一书中提出的23种设计模式，以及《[游戏编程模式]》一书中介绍的常用游戏设计模式)。
 <br> 
 <br> 
-## Gang of Four Patterns GOF设计模式部分
+## 23 Gang of Four Patterns <b> 23种GOF设计模式部分
 ### Behavioral Patterns 行为型模式
 * [Command Pattern 命令模式]
 * [State Pattern 状态模式]
