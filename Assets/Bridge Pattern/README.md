@@ -1,4 +1,4 @@
-# Bridge Pattern
+# Bridge Pattern桥接模式
 ##Definition
 
 Decouple an abstraction from its implementation so that the two can vary independently.
