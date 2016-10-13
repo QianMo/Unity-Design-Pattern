@@ -1,6 +1,6 @@
 # Unity3D Design Patterns
-This repository is about implementation of game design patterns in Unity3D. Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.
-<br> (此repo为Unity3D中各种游戏设计模式的实践与运用。在Unity中实现了《[设计模式:可复用面向对象软件的基础]》一书中提出的23种设计模式，以及《[游戏编程模式]》一书中介绍的常用游戏设计模式)。
+This repository is about implementation of game design patterns in Unity3D. Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.Game design patterns from book [Game Programming Patterns] are about to be completed.Please star it if you like it.
+<br> (此repo为Unity3D中各种游戏设计模式的实践与运用。目前已经在Unity中实现了《[设计模式:可复用面向对象软件的基础]》一书中提出的23种设计模式，以及即将实现《[游戏编程模式]》一书中介绍的常用游戏设计模式)。
 <br> 
 <br> 
 ## Gang of Four Patterns in Unity （23种GOF设计模式部分）
