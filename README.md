@@ -44,7 +44,6 @@ This repository is about implementation of game design patterns in Unity3D.
 * [Factory Method Pattern 工厂方法模式]
 
 <br> 
-<br> 
 
 ## Game Programming Patterns in Unity （游戏设计模式部分）
 * [Subclass Sandbox 子类沙盒模式]
