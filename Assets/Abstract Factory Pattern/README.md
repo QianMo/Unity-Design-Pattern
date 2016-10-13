@@ -1,7 +1,7 @@
 # Command Pattern
 ##Definition
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-Frequency of use:High
+提供一个接口，用于创建相关或者依赖对象的家族，而不需要指定具体的实现类。
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/abstract.gif)
 
 
