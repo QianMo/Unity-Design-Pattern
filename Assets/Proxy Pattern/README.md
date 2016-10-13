@@ -20,7 +20,7 @@ The classes and objects participating in this pattern are:
 	* `virtual proxies` may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images's extent.
 	* `protection proxies` check that the caller has the access permissions required to perform a request.
 ###Subject   (IMath)
-defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.
+* defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.
 ###RealSubject   (Math)
-defines the real object that the proxy represents.
+* defines the real object that the proxy represents.
 
