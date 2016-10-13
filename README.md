@@ -52,7 +52,7 @@ This repository is about implementation of game design patterns in Unity3D.
 
 <br> 
 
-##Reference resources(参考)
+#Reference resources(参考)
 
 * [http://gameprogrammingpatterns.com/]
 * [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
