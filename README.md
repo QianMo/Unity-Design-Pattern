@@ -52,12 +52,12 @@ This repository is about implementation of design patterns in Unity3D.
 
 #Reference resources(参考)
 
-* [http://gameprogrammingpatterns.com/]
-* [https://www.youtube.com/playlist?list=PLF206E906175C7E07]
-* [https://github.com/Naphier/unity-design-patterns]
-* [http://www.dofactory.com/net/design-patterns]
-* [[Gang of Four Patterns]]
-* [[Head First Design Patterns]]
+* http://gameprogrammingpatterns.com/
+* https://www.youtube.com/playlist?list=PLF206E906175C7E07
+* https://github.com/Naphier/unity-design-patterns
+* [http://www.dofactory.com/net/design-patterns
+* [Gang of Four Patterns]
+* [Head First Design Patterns]
 
 [State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
 [Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Command%20Pattern
