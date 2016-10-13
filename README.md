@@ -39,7 +39,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * [Prototype Pattern 原型模式]
 * [Singleton Pattern 单例模式]
 * [Abstract Factory Pattern 抽象工厂模式]
-* [Builder Pattern建造者模式]
+* [Builder Pattern 建造者模式]
 * [Factory Method Pattern 工厂方法模式]
 
 <br> 
@@ -80,7 +80,7 @@ This repository is about cool design patterns written in Unity3D C#.
 [Facade Pattern 外观模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Facade%20Pattern
 [Proxy Pattern 代理模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Proxy%20Pattern
 [Abstract Factory Pattern 抽象工厂模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Abstract%20Factory%20Pattern
-[Builder Pattern建造者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Builder%20Pattern
+[Builder Pattern 建造者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Builder%20Pattern
 [Factory Method Pattern 工厂方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Factory%20Method%20Pattern
 [Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/SubclassSandbox%20Pattern
 [Gang of Four Patterns]:https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1476338345&sr=8-1&keywords=design+patterns
