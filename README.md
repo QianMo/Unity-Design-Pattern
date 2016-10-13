@@ -1,7 +1,7 @@
 # Unity3D Design Patterns
 This repository is about implementation of design patterns in Unity3D. 
 * Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.
-* Each pattern contains the corresponding structure implementation, application examples and diagrams.
+* Each pattern contains the corresponding structure implementation, application examples and diagrams. Like [Naphier'unity-design-patterns],each pattern is contained in a separate folder.Inside these are a folder ("Structure") to show what classes are used in the pattern's structure and a folder ("Example") showing a real-world example of using the pattern in Unity3D along with a scene showing it in action.
 * Game design patterns from book [Game Programming Patterns] are about to be completed.
 
 此repo为Unity3D中各种设计模式的实践与运用。
@@ -88,4 +88,4 @@ This repository is about implementation of design patterns in Unity3D.
 [设计模式:可复用面向对象软件的基础]:https://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%9B%E4%B9%A6-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8F%AF%E5%A4%8D%E7%94%A8%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80-Erich-Gamma/dp/B001130JN8/ref=sr_1_1?ie=UTF8&qid=1476338390&sr=8-1&keywords=%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F
 [游戏编程模式]:http://gameprogrammingpatterns.com/
 [Head First Design Patterns]:https://www.amazon.com/dp/0596007124//ref=cm_sw_su_dp?tag=nethta-20
-
+[Naphier'unity-design-patterns]:https://github.com/Naphier/unity-design-patterns
