@@ -19,8 +19,10 @@ The classes and objects participating in this pattern are:
 	* `remote proxies` are responsible for encoding a request and its arguments and for sending the encoded request to the real subject in a different address space.
 	* `virtual proxies` may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images's extent.
 	* `protection proxies` check that the caller has the access permissions required to perform a request.
+
 ###Subject   (IMath)
 * defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.
+
 ###RealSubject   (Math)
 * defines the real object that the proxy represents.
 

@@ -14,10 +14,12 @@ The classes and objects participating in this pattern are:
 ###Handler   (Approver)
 * defines an interface for handling the requests
 * (optional) implements the successor link
+
 ###ConcreteHandler   (Director, VicePresident, President)
 * handles requests it is responsible for
 * can access its successor
 * if the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor
+
 ###Client   (ChainApp)
 * initiates the request to a ConcreteHandler object on the chain
 
