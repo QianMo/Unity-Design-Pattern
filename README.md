@@ -1,4 +1,4 @@
-# Unity3D Design Patterns
+#Design Patterns in Unity3D
 This repository is about implementation of design patterns in Unity3D. 
 * Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.
 * Each pattern contains the corresponding structure implementation, application examples and diagrams. Same way with [Naphier/unity-design-patterns], in this repository each pattern is contained in a separate folder.Inside these are a folder ("Structure") to show what classes are used in the pattern's structure in Unity3D and a folder ("Example") showing a real-world example of using the pattern in Unity3D along with a scene showing it in action.Each pattern folder may contain one or more Example.
