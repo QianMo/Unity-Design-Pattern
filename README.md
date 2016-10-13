@@ -59,20 +59,20 @@ This repository is about cool design patterns written in Unity3D C#.
 * [Gang of Four Patterns]
 * [Head First Design Patterns]
 
-[State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/State%20Pattern
-[Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Command%20Pattern
+[State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/Behavioral%20Patterns/State%20Pattern
+[Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Command%20Pattern
 [Flyweight Pattern 享元模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Flyweight%20Pattern
-[Observer Pattern 观察者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Observer%20Pattern
+[Observer Pattern 观察者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Observer%20Pattern
 [Singleton Pattern 单例模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Singleton%20Pattern
 [Prototype Pattern 原型模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Prototype%20Pattern
-[Chain of Responsibility Pattern 责任链模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Chain%20of%20Responsibility%20Pattern
+[Chain of Responsibility Pattern 责任链模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Chain%20of%20Responsibility%20Pattern
 [Mediator Pattern 中介者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Mediator%20Pattern
-[Interpreter Pattern 解释器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Interpreter%20Pattern
-[Iterator Pattern 迭代器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Iterator%20Pattern
-[Memento Pattern 备忘录模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Memento%20Pattern
-[Strategy Pattern 策略模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Strategy%20Pattern
-[Template Method Pattern 模板方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Template%20Method%20Pattern
-[Visitor Pattern 访问者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Visitor%20Pattern
+[Interpreter Pattern 解释器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Interpreter%20Pattern
+[Iterator Pattern 迭代器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Iterator%20Pattern
+[Memento Pattern 备忘录模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Memento%20Pattern
+[Strategy Pattern 策略模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Strategy%20Pattern
+[Template Method Pattern 模板方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Template%20Method%20Pattern
+[Visitor Pattern 访问者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Visitor%20Pattern
 [Adapter Pattern 适配器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Adapter%20Pattern
 [Bridge Pattern 桥接模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Bridge%20Pattern
 [Composite Pattern 组合模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Composite%20Pattern
