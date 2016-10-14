@@ -91,8 +91,11 @@
     <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
     <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Example1\IteratorExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Structure\IteratorStructure.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Example1\MediatorExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Structure\MediatorStructure.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Example1\MementoExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Structure\MementoStructure.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Example1\ObserverExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Structure\ObserverStructure.cs" />
     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple2\ATMMachine.cs" />
     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple2\ATMState.cs" />
