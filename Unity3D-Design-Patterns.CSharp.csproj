@@ -67,25 +67,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Behavioral Patterns\Chain of Responsibility Pattern\Example1\ChainOfResponsibilityExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Chain of Responsibility Pattern\Structure\ChainOfResponsibilityStructure.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\DeviceButton.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\ICommand.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\IElectronicDevice.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\Radio.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TVRemove.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\Television.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TestCommandPattern.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TurnItAllOff.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TurnTVOff.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TurnTVOn.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TurnVolumeDown.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\TurnVolumeUp.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\Command.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\InputHandler.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\MoveCommand.cs" />
-    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\MoveCommandReceiver.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\CommandExample1.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\DeviceButton.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\ICommand.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\IElectronicDevice.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\Radio.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TVRemove.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\Television.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TestCommandPattern.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnItAllOff.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnTVOff.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnTVOn.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnVolumeDown.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnVolumeUp.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\Command.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\InputHandler.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\MoveCommand.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\MoveCommandReceiver.cs" />
     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Structure\CommandStructure.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Example1\InterpreterExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
+    <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Example1\IteratorExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Structure\IteratorStructure.cs" />
     <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Structure\MediatorStructure.cs" />
     <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Structure\MementoStructure.cs" />
