@@ -134,6 +134,7 @@
     <Compile Include="Assets\Structural Patterns\Adapter Pattern\Structure\AdapterStructure.cs" />
     <Compile Include="Assets\Structural Patterns\Bridge Pattern\Exmaple1\BridgePatternExample1.cs" />
     <Compile Include="Assets\Structural Patterns\Bridge Pattern\Structure\BridgeStructure.cs" />
+    <Compile Include="Assets\Structural Patterns\Composite Pattern\Exmaple1\CompositePatternExample1.cs" />
     <Compile Include="Assets\Structural Patterns\Composite Pattern\Structure\CompositeStructure.cs" />
     <Compile Include="Assets\Structural Patterns\Decorator Pattern\Structure\DecoratorStructure.cs" />
     <Compile Include="Assets\Structural Patterns\Facade Pattern\Structure\FacadeStructure.cs" />
