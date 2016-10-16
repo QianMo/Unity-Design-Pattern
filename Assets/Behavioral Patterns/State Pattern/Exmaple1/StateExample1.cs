@@ -249,6 +249,12 @@ namespace StateExample1
             this._state = new SilverState(0.0, this);
         }
 
+        //to fix the private field "_owner' is assigned but its value is never used warning
+        public string GetOwner()
+        {
+            return _owner;
+        }
+
         // Properties
         public double Balance
         {
