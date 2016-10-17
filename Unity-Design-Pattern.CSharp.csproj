@@ -56,12 +56,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -136,6 +130,7 @@
     <Compile Include="Assets\Structural Patterns\Bridge Pattern\Structure\BridgeStructure.cs" />
     <Compile Include="Assets\Structural Patterns\Composite Pattern\Exmaple1\CompositePatternExample1.cs" />
     <Compile Include="Assets\Structural Patterns\Composite Pattern\Structure\CompositeStructure.cs" />
+    <Compile Include="Assets\Structural Patterns\Decorator Pattern\Exmaple1\DecoratorPatternExample1.cs" />
     <Compile Include="Assets\Structural Patterns\Decorator Pattern\Structure\DecoratorStructure.cs" />
     <Compile Include="Assets\Structural Patterns\Facade Pattern\Structure\FacadeStructure.cs" />
     <Compile Include="Assets\Structural Patterns\Flyweight Pattern\Structure\FlyweightStructure.cs" />
