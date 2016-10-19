@@ -56,12 +56,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -120,10 +114,15 @@
     <Compile Include="Assets\Behavioral Patterns\Template Method Pattern\Structure\TemplateMethodStructure.cs" />
     <Compile Include="Assets\Behavioral Patterns\Visitor Pattern\Exmaple1\VisitorPatternExample1.cs" />
     <Compile Include="Assets\Behavioral Patterns\Visitor Pattern\Structure\VisitorStructure.cs" />
+    <Compile Include="Assets\Creational Patterns\Abstract Factory Pattern\Example1\AbstractFactoryPatternExample1.cs" />
     <Compile Include="Assets\Creational Patterns\Abstract Factory Pattern\Structure\AbstractFactoryStructrue.cs" />
+    <Compile Include="Assets\Creational Patterns\Builder Pattern\Example1\BuilderPatternExample1.cs" />
     <Compile Include="Assets\Creational Patterns\Builder Pattern\Structure\BuilderStructure.cs" />
+    <Compile Include="Assets\Creational Patterns\Factory Method Pattern\Example1\FactoryMethodPatternExample1.cs" />
     <Compile Include="Assets\Creational Patterns\Factory Method Pattern\Structure\FactoryMethodStructure.cs" />
+    <Compile Include="Assets\Creational Patterns\Prototype Pattern\Example1\PrototypePatternExample1.cs" />
     <Compile Include="Assets\Creational Patterns\Prototype Pattern\Structure\PrototypeStructure.cs" />
+    <Compile Include="Assets\Creational Patterns\Singleton Pattern\Example1\SingletonPatternExample1.cs" />
     <Compile Include="Assets\Creational Patterns\Singleton Pattern\Structure\SingletonStructure.cs" />
     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\FlashSpeed.cs" />
     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\GroundDive.cs" />
