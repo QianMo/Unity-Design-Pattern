@@ -2,7 +2,7 @@
 This repository is about cool design patterns written in Unity3D C#. 
 * Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.
 * Each pattern contains the corresponding structure implementations, application examples and diagrams. Same way with [Naphier/unity-design-patterns], in this repository each pattern is contained in a separate folder. Inside these are a folder ("Structure") to show what classes are used in the pattern's structure in Unity3D(with a scene) and a folder or folders ("Example") showing one or more real-world example of using the pattern in Unity3D along with a scene showing it in action. Each pattern folder may contain one or more Example.
-* Game design patterns from book [Game Programming Patterns] are about to be completed.
+* Game design patterns from book [Game Programming Patterns] are about to be Updated.
 
 此repo为Unity3D中各种设计模式的实践与运用。
 * 目前已经在Unity中实现了《[设计模式:可复用面向对象软件的基础]》一书中提出的23种设计模式。
