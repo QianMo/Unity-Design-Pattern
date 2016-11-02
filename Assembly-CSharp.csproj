@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{8ABF50DE-5C45-E1BE-2FA5-8FD59671116B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files/Unity 5.2/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files/Unity 5.2/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Behavioral Patterns\Chain of Responsibility Pattern\Example1\ChainOfResponsibilityExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Chain of Responsibility Pattern\Example2\ChainOfResponsibilityExample2.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Chain of Responsibility Pattern\Structure\ChainOfResponsibilityStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example1\CommandExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\DeviceButton.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\ICommand.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\IElectronicDevice.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\Radio.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TVRemove.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\Television.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TestCommandPattern.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnItAllOff.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnTVOff.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnTVOn.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnVolumeDown.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example2\TurnVolumeUp.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\Command.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\InputHandler.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\MoveCommand.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\MoveCommandReceiver.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Command Pattern\Structure\CommandStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Example1\InterpreterExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Example1\IteratorExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Structure\IteratorStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Example1\MediatorExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Structure\MediatorStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Example1\MementoExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Structure\MementoStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Example1\ObserverExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Structure\ObserverStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple1\StateExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple2\StateExmaple2.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\ATMMachine.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\ATMState.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\HasCard.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\HasPin.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\NoCard.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\NoCash.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple3\TestATMMachine.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\DrivingState.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\DuckingState.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\Heroine.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\HeroineBaseState.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\JumpingState.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\StandingState.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple4\TestHeroine.cs" />
+     <Compile Include="Assets\Behavioral Patterns\State Pattern\Structure\StateStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Strategy Pattern\Exmaple1\StrategyPatternExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Strategy Pattern\Structure\StrategyStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Template Method Pattern\Exmaple1\TemplateMethodPatternExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Template Method Pattern\Structure\TemplateMethodStructure.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Visitor Pattern\Exmaple1\VisitorPatternExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Visitor Pattern\Structure\VisitorStructure.cs" />
+     <Compile Include="Assets\Creational Patterns\Abstract Factory Pattern\Example1\AbstractFactoryPatternExample1.cs" />
+     <Compile Include="Assets\Creational Patterns\Abstract Factory Pattern\Structure\AbstractFactoryStructrue.cs" />
+     <Compile Include="Assets\Creational Patterns\Builder Pattern\Example1\BuilderPatternExample1.cs" />
+     <Compile Include="Assets\Creational Patterns\Builder Pattern\Structure\BuilderStructure.cs" />
+     <Compile Include="Assets\Creational Patterns\Factory Method Pattern\Example1\FactoryMethodPatternExample1.cs" />
+     <Compile Include="Assets\Creational Patterns\Factory Method Pattern\Structure\FactoryMethodStructure.cs" />
+     <Compile Include="Assets\Creational Patterns\Prototype Pattern\Example1\PrototypePatternExample1.cs" />
+     <Compile Include="Assets\Creational Patterns\Prototype Pattern\Structure\PrototypeStructure.cs" />
+     <Compile Include="Assets\Creational Patterns\Singleton Pattern\Example1\SingletonPatternExample1.cs" />
+     <Compile Include="Assets\Creational Patterns\Singleton Pattern\Structure\SingletonStructure.cs" />
+     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\FlashSpeed.cs" />
+     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\GroundDive.cs" />
+     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\SkyLaunch.cs" />
+     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\SuperPower.cs" />
+     <Compile Include="Assets\Game Programming Patterns\SubclassSandbox Pattern\example\TestSubclassSandbox.cs" />
+     <Compile Include="Assets\Structural Patterns\Adapter Pattern\Exmaple1\AdapterPatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Adapter Pattern\Structure\AdapterStructure.cs" />
+     <Compile Include="Assets\Structural Patterns\Bridge Pattern\Exmaple1\BridgePatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Bridge Pattern\Structure\BridgeStructure.cs" />
+     <Compile Include="Assets\Structural Patterns\Composite Pattern\Exmaple1\CompositePatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Composite Pattern\Structure\CompositeStructure.cs" />
+     <Compile Include="Assets\Structural Patterns\Decorator Pattern\Exmaple1\DecoratorPatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Decorator Pattern\Structure\DecoratorStructure.cs" />
+     <Compile Include="Assets\Structural Patterns\Facade Pattern\Exmaple1\FacadePatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Facade Pattern\Structure\FacadeStructure.cs" />
+     <Compile Include="Assets\Structural Patterns\Flyweight Pattern\Exmaple1\FlyweightPatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Flyweight Pattern\Structure\FlyweightStructure.cs" />
+     <Compile Include="Assets\Structural Patterns\Proxy Pattern\Exmaple1\ProxyPatternExample1.cs" />
+     <Compile Include="Assets\Structural Patterns\Proxy Pattern\Structure\ProxyStructure.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity 5.2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity 5.2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>D:/Program Files/Unity 5.2/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/Program Files/Unity 5.2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
