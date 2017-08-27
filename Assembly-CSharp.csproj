@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8ABF50DE-5C45-E1BE-2FA5-8FD59671116B}</ProjectGuid>
+    <ProjectGuid>{7CE15ACA-CB75-5D41-D77E-7B832AAD387B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>D:/Program Files/Unity 5.3.3/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>D:/Program Files/Unity-5.3.3/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:/Program Files/Unity 5.3.3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>D:/Program Files/Unity-5.3.3/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -67,14 +67,18 @@
      <Compile Include="Assets\Behavioral Patterns\Command Pattern\Example3\MoveCommandReceiver.cs" />
      <Compile Include="Assets\Behavioral Patterns\Command Pattern\Structure\CommandStructure.cs" />
      <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Example1\InterpreterExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Example2\InterpreterExample2.cs" />
      <Compile Include="Assets\Behavioral Patterns\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
      <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Example1\IteratorExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Example2\IteratorExample2.cs" />
      <Compile Include="Assets\Behavioral Patterns\Iterator Pattern\Structure\IteratorStructure.cs" />
      <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Example1\MediatorExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Example2\MediatorExample2.cs" />
      <Compile Include="Assets\Behavioral Patterns\Mediator Pattern\Structure\MediatorStructure.cs" />
      <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Example1\MementoExample1.cs" />
      <Compile Include="Assets\Behavioral Patterns\Memento Pattern\Structure\MementoStructure.cs" />
      <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Example1\ObserverExample1.cs" />
+     <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Example2\ObserverExample2.cs" />
      <Compile Include="Assets\Behavioral Patterns\Observer Pattern\Structure\ObserverStructure.cs" />
      <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple1\StateExample1.cs" />
      <Compile Include="Assets\Behavioral Patterns\State Pattern\Exmaple2\StateExmaple2.cs" />
@@ -129,10 +133,10 @@
      <Compile Include="Assets\Structural Patterns\Proxy Pattern\Exmaple1\ProxyPatternExample1.cs" />
      <Compile Include="Assets\Structural Patterns\Proxy Pattern\Structure\ProxyStructure.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Program Files/Unity 5.3.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files/Unity-5.3.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Program Files/Unity 5.3.3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>D:/Program Files/Unity-5.3.3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
