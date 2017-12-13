@@ -30,7 +30,7 @@ namespace StatePatternExample5
     }
 
     /// <summary>
-    /// Context类-持有目前的状态,并将有关的讯息传给状态
+    /// Context类-持有目前的状态,并将相关信息传给状态
     /// </summary>
     public class Context
     {
