@@ -59,6 +59,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * https://sourcemaking.com/design_patterns
 * [Gang of Four Patterns]
 * [Head First Design Patterns]
+* [设计模式与游戏完美开发]
 
 [State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/Behavioral%20Patterns/State%20Pattern
 [Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Command%20Pattern
@@ -91,3 +92,4 @@ This repository is about cool design patterns written in Unity3D C#.
 [游戏编程模式]:http://gameprogrammingpatterns.com/
 [Head First Design Patterns]:https://www.amazon.com/dp/0596007124//ref=cm_sw_su_dp?tag=nethta-20
 [Naphier/unity-design-patterns]:https://github.com/Naphier/unity-design-patterns
+[设计模式与游戏完美开发]:https://www.amazon.cn/dp/B01N9GO0ZC
