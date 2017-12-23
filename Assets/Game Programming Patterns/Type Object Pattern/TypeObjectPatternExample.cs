@@ -18,27 +18,21 @@ public class TypeObjectPatternExample : MonoBehaviour
     void Start()
     {
         //创建种类，生命值填0表示从父类继承。
-        Breed Troll = new Breed(null, 25, "The troll hits you!");
+        Breed troll = new Breed(null, 25, "The troll hits you!");
 
-        Breed TrollArcher= new Breed(Troll, 0, "The troll archer fires an arrow!");
+        Breed trollArcher= new Breed(troll, 0, "The troll archer fires an arrow!");
 
-        Breed TrollWizard = new Breed(Troll, 0, "The troll wizard casts a spell on you!");
+        Breed trollWizard = new Breed(troll, 0, "The troll wizard casts a spell on you!");
 
+        //通过种类创建monster对象
+        Monster trollMonster = troll.NewMonster();
+        trollMonster.ShowAttack();
 
-        Monster TrollMonster = Troll.NewMonster();
-        TrollMonster.GetAttack();
+        Monster trollArcherMonster = trollArcher.NewMonster();
+        trollArcherMonster.ShowAttack();
 
-        Monster TrollArcherMonster = TrollArcher.NewMonster();
-        TrollArcherMonster.GetAttack();
-
-        Monster TrollWizardMonster = TrollWizard.NewMonster();
-        TrollWizardMonster.GetAttack();
-
-        //monster.
-    }
-
-    void Update()
-    {
+        Monster trollWizardMonster = trollWizard.NewMonster();
+        trollWizardMonster.ShowAttack();
 
     }
 
@@ -64,17 +58,35 @@ public class Breed
     {
         //复制“代理”，在创建一个类型时将继承的特性复制到类的内部
         //注意我们不再需要parent类中的属性，一旦构造结束，就可以忘掉基类
-        if (parent_ != null)
+        if (parent != null)
         {
-            if (health_ == 0)
+            parent_ = parent;
+
+            //是0，从父层拿，否则，使用构造函数提供的值
+            if (health == 0)
             {
                 health_ = parent.GetHealth();
             }
+            else
+            {
+                health_ = health;
+            }
 
+            //是null，从父层拿，否则，使用构造函数提供的值
             if (attack == null)
             {
                 attack_ = parent.GetAttack();
             }
+            else
+            {
+                attack_ = attack;
+            }
+        }
+        else
+        {
+            health_ = health;
+            attack_ = attack;
+            parent_ = null;
         }
     }
 
@@ -103,22 +115,24 @@ public class Monster
 {
     private int health_;
     private Breed breed_;
+    private string attack_;
 
     public Monster(Breed breed)
     {
         health_ = breed.GetHealth();
         breed_ = breed;
+        attack_ = breed.GetAttack();
     }
 
     public string GetAttack()
     {
-        return breed_.GetAttack();
+        return attack_;
     }
 
-//     public void ShowAttack()
-//     {
-//         Debug.Log("This Monster Attack is :" + GetAttack());
-//     }
+    public void ShowAttack()
+    {
+        Debug.Log(attack_);
+    }
 }
 
 
