@@ -81,7 +81,7 @@ namespace FactoryMethodPatternExample2
         // lots of if and else statements and logic
         void Update()
         {
-            return; // < "deactivating"
+            //return; // < "deactivating"
 
 
             if (Input.GetKeyDown(KeyCode.U))

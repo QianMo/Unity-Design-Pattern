@@ -17,7 +17,7 @@ namespace BuilderPatternExample2
 
             Robot firstRobot = engineer.GetRobot();
             Debug.Log("First Robot built");
-            Debug.Log(firstRobot.ToString());
+            Debug.Log(firstRobot.ToStringEX());
         }
     }
 
@@ -59,7 +59,7 @@ namespace BuilderPatternExample2
             this.legs = legs;
         }
 
-        public string ToString()
+        public string ToStringEX()
         {
             return "Head: " + this.head + ", torso: " + this.torso + ", Arms: " + arms + ", legs: " + legs;
         }

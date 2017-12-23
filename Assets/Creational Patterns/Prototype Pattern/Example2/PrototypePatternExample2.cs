@@ -13,7 +13,7 @@ namespace PrototypePatternExample2
         void Start()
         {
             CloneFactory factory = new CloneFactory();
-
+            
             Sheep sally = new Sheep();
 
             Sheep clonedSheep = (Sheep)factory.GetClone(sally);
