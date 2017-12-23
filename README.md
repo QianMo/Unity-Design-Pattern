@@ -45,8 +45,8 @@ This repository is about cool design patterns written in Unity3D C#.
 <br> 
 
 ## Game Programming Patterns in Unity （游戏设计模式的Unity实现）
-* [Subclass Sandbox 子类沙盒模式]
-
+* [Subclass Sandbox Pattern 子类沙盒模式]
+* [Type Object Pattern 类型对象模式]
 
 <br> 
 
@@ -85,7 +85,16 @@ This repository is about cool design patterns written in Unity3D C#.
 [Prototype Pattern 原型模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Prototype%20Pattern
 [Singleton Pattern 单例模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Singleton%20Pattern
 
-[Subclass Sandbox 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/SubclassSandbox%20Pattern
+[Subclass Sandbox Pattern 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/SubclassSandbox%20Pattern
+[Type Object Pattern 类型对象模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Type%20Object%20Pattern
+
+
+
+
+
+
+
+
 [Gang of Four Patterns]:https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1476338345&sr=8-1&keywords=design+patterns
 [Game Programming Patterns]:http://gameprogrammingpatterns.com/
 [设计模式:可复用面向对象软件的基础]:https://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%9B%E4%B9%A6-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8F%AF%E5%A4%8D%E7%94%A8%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80-Erich-Gamma/dp/B001130JN8/ref=sr_1_1?ie=UTF8&qid=1476338390&sr=8-1&keywords=%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F
