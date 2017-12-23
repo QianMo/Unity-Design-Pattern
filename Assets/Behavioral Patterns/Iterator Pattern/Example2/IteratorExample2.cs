@@ -38,14 +38,14 @@ public class IteratorExample2 : MonoBehaviour
         while (songsOfThe70sIterator.MoveNext())
         {
             SongInfo info = (SongInfo)songsOfThe70sIterator.Current;
-            Debug.Log("Song 70s: " + info.ToString());
+            Debug.Log("Song 70s: " + info.ToStringEx());
         }
 
         IEnumerator songsOfThe80sIterator = song80s.GetIterator();
         while (songsOfThe80sIterator.MoveNext())
         {
             SongInfo info = (SongInfo)songsOfThe80sIterator.Current;
-            Debug.Log("Song 80s: " + info.ToString());
+            Debug.Log("Song 80s: " + info.ToStringEx());
         }
     }
 
@@ -67,7 +67,7 @@ public class IteratorExample2 : MonoBehaviour
             this.yearReleased = yearReleased;
         }
 
-        public string ToString()
+        public string ToStringEx()
         {
             return this.songName + " - " + this.bandName + " : " + this.yearReleased.ToString();
         }

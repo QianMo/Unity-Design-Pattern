@@ -18,8 +18,8 @@ namespace PrototypePatternExample2
 
             Sheep clonedSheep = (Sheep)factory.GetClone(sally);
 
-            Debug.Log("Sally: " + sally.ToString());
-            Debug.Log("Clone of Sally: " + clonedSheep.ToString());
+            Debug.Log("Sally: " + sally.ToStringEX());
+            Debug.Log("Clone of Sally: " + clonedSheep.ToStringEX());
             Debug.Log("Sally Hash: " + sally.GetHashCode() + " - Cloned Sheep Hash: " + clonedSheep.GetHashCode());
         }
 
@@ -61,7 +61,7 @@ namespace PrototypePatternExample2
             return sheep;
         }
 
-        public string ToString()
+        public string ToStringEX()
         {
             return "Hello I'm a Sheep";
         }

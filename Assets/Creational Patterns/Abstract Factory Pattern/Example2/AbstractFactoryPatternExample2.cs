@@ -109,17 +109,17 @@ namespace AbstractFactoryPatternExample2
 
         public void FollowHeroShip()
         {
-            Debug.Log(name + " follows hero ship with " + engine.ToString());
+            Debug.Log(name + " follows hero ship with " + engine.ToStringEX());
         }
 
         public void Shoot()
         {
-            Debug.Log(name + " shoots and does " + weapon.ToString());
+            Debug.Log(name + " shoots and does " + weapon.ToStringEX());
         }
 
-        public string ToString()
+        public string ToStringEX()
         {
-            return "The " + name + " has a speed of " + engine.ToString() + " a firepower of " + weapon.ToString();
+            return "The " + name + " has a speed of " + engine.ToStringEX() + " a firepower of " + weapon.ToStringEX();
         }
     }
 
@@ -145,24 +145,24 @@ namespace AbstractFactoryPatternExample2
     // possible Weapons to swap in and out
     public interface IESWeapon
     {
-        string ToString();
+        string ToStringEX();
     }
 
     public interface IESEngine
     {
-        string ToString();
+        string ToStringEX();
     }
 
     public class ESUFOGun : IESWeapon
     {
-        public string ToString()
+        public string ToStringEX()
         {
             return "20 damage";
         }
     }
     public class ESUFOEngine : IESEngine
     {
-        public string ToString()
+        public string ToStringEX()
         {
             return "1000 mph";
         }
