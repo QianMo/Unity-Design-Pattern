@@ -9,19 +9,20 @@ Allow the flexible creation of new “classes” by creating a single class, eac
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/type-object.png)
 两个类，无限的种类
 
-## Participants
 
-The classes and objects participating in this pattern are:
+## The Pattern
 
-### Product  (Page)
-* defines the interface of objects the factory method creates
-* ConcreteProduct  (SkillsPage, EducationPage, ExperiencePage)
-* implements the Product interface
+Define a type object class and a typed object class. Each type object instance represents a different logical type. Each typed object stores a reference to the type object that describes its type.
 
-### Creator  (Document)
-* declares the factory method, which returns an object of type Product. Creator may also define a default implementation of the factory method that returns a default ConcreteProduct object.
-* may call the factory method to create a Product object.
+Instance-specific data is stored in the typed object instance, and data or behavior that should be shared across all instances of the same conceptual type is stored in the type object. Objects referencing the same type object will function as if they were the same type. This lets us share data and behavior across a set of similar objects, much like subclassing lets us do, but without having a fixed set of hard-coded subclasses.
 
-### ConcreteCreator  (Report, Resume)
-* overrides the factory method to return an instance of a ConcreteProduct.
+
+## When to Use It 
+
+This pattern is useful anytime you need to define a variety of different “kinds” of things, but baking the kinds into your language’s type system is too rigid. In particular, it’s useful when either of these is true:
+
+You don’t know what types you will need up front. (For example, what if our game needed to support downloading content that contained new breeds of monsters?)
+
+You want to be able to modify or add new types without having to recompile or change code.
+
 
