@@ -20,7 +20,7 @@ public class TypeObjectPatternExample : MonoBehaviour
         //创建种类，生命值填0表示从父类继承。
         Breed troll = new Breed(null, 25, "The troll hits you!");
 
-        Breed trollArcher= new Breed(troll, 0, "The troll archer fires an arrow!");
+        Breed trollArcher = new Breed(troll, 0, "The troll archer fires an arrow!");
 
         Breed trollWizard = new Breed(troll, 0, "The troll wizard casts a spell on you!");
 
@@ -56,37 +56,26 @@ public class Breed
     /// <param name="attack">攻击表现</param>
     public Breed(Breed parent, int health, string attack)
     {
+        health_ = health;
+        attack_ = attack;
+        parent_ = null;
+
         //复制“代理”，在创建一个类型时将继承的特性复制到类的内部
         //注意我们不再需要parent类中的属性，一旦构造结束，就可以忘掉基类
         if (parent != null)
         {
             parent_ = parent;
 
-            //是0，从父层拿，否则，使用构造函数提供的值
+            //是0，从父层拿
             if (health == 0)
             {
                 health_ = parent.GetHealth();
             }
-            else
-            {
-                health_ = health;
-            }
-
-            //是null，从父层拿，否则，使用构造函数提供的值
+            //是null，从父层拿
             if (attack == null)
             {
                 attack_ = parent.GetAttack();
             }
-            else
-            {
-                attack_ = attack;
-            }
-        }
-        else
-        {
-            health_ = health;
-            attack_ = attack;
-            parent_ = null;
         }
     }
 
