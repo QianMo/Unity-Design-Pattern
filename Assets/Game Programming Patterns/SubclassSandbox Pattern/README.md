@@ -27,8 +27,8 @@ The Subclass Sandbox pattern is a very simple, common pattern lurking in lots of
 - There is behavioral overlap in the subclasses and you want to make it easier to share code between them.
 
 - You want to minimize coupling between those derived classes and the rest of the program.
-<br>
-沙盒模式模式是运用在多数代码库里、甚至游戏之外的一种非常简单通用的模式。如果你正在部署一个非虚的受保护方法，那么你很可能正在使用与之类似的模式。沙盒模式适用于以下情况：
+
+沙盒模式是运用在多数代码库里、甚至游戏之外的一种非常简单通用的模式。如果你正在部署一个非虚的受保护方法，那么你很可能正在使用与之类似的模式。沙盒模式适用于以下情况：
 - 你有一个带大量子类的基类。
 - 基类能够提供所有子类可能需要执行的操作集合。
 - 在子类之间有重叠的代码，你希望在它们之间更简便地共享代码。
