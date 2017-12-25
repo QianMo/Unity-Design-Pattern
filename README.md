@@ -10,7 +10,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * 《[游戏编程模式]》一书中介绍的常用游戏设计模式的Unity版实现也有部分实现。
 
 # Contents
-## Gang of Four Patterns in Unity （23种GOF设计模式的Unity实现）
+## I、Gang of Four Patterns in Unity （23种GOF设计模式的Unity实现）
 ### Behavioral Patterns 行为型模式
 * [Command Pattern 命令模式]
 * [State Pattern 状态模式]
@@ -44,7 +44,7 @@ This repository is about cool design patterns written in Unity3D C#.
 
 <br> 
 
-## Game Programming Patterns in Unity （《游戏编程模式》的Unity下实现）
+## II、Game Programming Patterns in Unity （《游戏编程模式》的Unity实现）
 * [Subclass Sandbox Pattern 子类沙盒模式]
 * [Type Object Pattern 类型对象模式]
 * [Component Pattern 组件模式]
