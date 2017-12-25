@@ -44,7 +44,7 @@ This repository is about cool design patterns written in Unity3D C#.
 
 <br> 
 
-## Game Programming Patterns in Unity （游戏设计模式的Unity实现）
+## Game Programming Patterns in Unity （《游戏编程模式》的Unity下实现）
 * [Subclass Sandbox Pattern 子类沙盒模式]
 * [Type Object Pattern 类型对象模式]
 * [Component Pattern 组件模式]
