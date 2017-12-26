@@ -58,6 +58,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * https://github.com/Naphier/unity-design-patterns
 * http://www.dofactory.com/net/design-patterns
 * https://sourcemaking.com/design_patterns
+* http://www.habrador.com/tutorials/programming-patterns/
 * [Gang of Four Patterns]
 * [Head First Design Patterns]
 * [设计模式与游戏完美开发]
