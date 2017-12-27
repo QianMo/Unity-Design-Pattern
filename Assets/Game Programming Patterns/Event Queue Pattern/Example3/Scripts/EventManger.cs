@@ -72,7 +72,7 @@ namespace EventQueuePatternExample3
         }
 
         /// <summary>
-        /// 反注册事件-反注册该EventType下所有的注册消息
+        /// 反注册事件-反注册该EventType下指定的EventHandler
         /// </summary>
         public void UnRegisterEvent(EventType eventType, EventHandler eventHandler)
         {
