@@ -1,5 +1,7 @@
 ﻿//-------------------------------------------------------------------------------------
 //	EventQueueManager.cs
+// Reference :https://github.com/GandhiGames/message_queue
+// http://gandhigames.co.uk/message-queue/
 //-------------------------------------------------------------------------------------
 
 using UnityEngine;
@@ -28,7 +30,9 @@ namespace EventQueuePatternExample
             }
         }
 
+        //泛型代理
         public delegate void EventDelegateX<T>(T e) where T : GameEvent;
+        //普通代理
         private delegate void EventDelegateX(GameEvent e);
 
         private Dictionary<System.Type, EventDelegateX> DelegatesMap = new Dictionary<System.Type, EventDelegateX>();
@@ -41,7 +45,8 @@ namespace EventQueuePatternExample
         {
 
             EventDelegateX internalDelegate = (e) => { del((T)e); };
-            //已存在
+
+            //已存在,返回
             if (DelegateLookupMap.ContainsKey(del) && DelegateLookupMap[del] == internalDelegate)
             {
                 return;
@@ -99,7 +104,9 @@ namespace EventQueuePatternExample
 
     }
 
-
+    /// <summary>
+    /// 事件优先级枚举
+    /// </summary>
     public enum MessagePriority
     {
         Low,
@@ -107,6 +114,9 @@ namespace EventQueuePatternExample
         High
     }
 
+    /// <summary>
+    /// 事件接口
+    /// </summary>
     public interface IMessageEvent
     {
         DateTime timeRaised { get; }
@@ -115,6 +125,9 @@ namespace EventQueuePatternExample
         object message { get; }
     }
 
+    /// <summary>
+    /// 事件实体类
+    /// </summary>
     public class MessageEvent : GameEvent, IMessageEvent
     {
         public DateTime timeRaised { private set; get; }
@@ -132,7 +145,9 @@ namespace EventQueuePatternExample
     }
 
 
-
+    /// <summary>
+    /// 事件抽象类
+    /// </summary>
     public abstract class GameEvent
     {
 

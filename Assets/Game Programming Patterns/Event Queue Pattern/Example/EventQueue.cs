@@ -12,6 +12,9 @@ namespace EventQueuePatternExample
 
     public class EventQueue : MonoBehaviour
     {
+
+        #region 事件队列相关
+
         /// <summary>
         /// 队列中待投递的事件队列
         /// </summary>
@@ -39,7 +42,6 @@ namespace EventQueuePatternExample
             }
         }
 
-
         void Start()
         {
             if (pendingEventQueueList.Count > 0)
@@ -54,6 +56,9 @@ namespace EventQueuePatternExample
         {
             EventQueueManager.Instance.RemoveListener<MessageEvent>(OnAddEventToQueue);
         }
+
+        #endregion
+
 
 
         #region UI显示相关
