@@ -46,7 +46,7 @@ namespace EventQueuePatternExample2
                 Message sMessage = new Message();
                 sMessage.Type = "START";
                 sMessage.Data = "你好~~~我是一条延迟发送的消息";
-                //延迟5秒后才发送
+                //延迟1秒后才发送
                 sMessage.Delay = 1f;
                 //MessageDispatcher发送一条信息出去，信息的标识为"START"。
                 MessageDispatcher.SendMessage(sMessage);
