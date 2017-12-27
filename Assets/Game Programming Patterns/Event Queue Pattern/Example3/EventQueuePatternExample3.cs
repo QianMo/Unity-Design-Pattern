@@ -5,6 +5,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
+using System.Collections.Generic;
 
 namespace EventQueuePatternExample3
 {
@@ -12,185 +13,201 @@ namespace EventQueuePatternExample3
 
     public class EventQueuePatternExample3 : MonoBehaviour
     {
-        Receiver receiver = new Receiver();
+        Receiver1 receiver1 = new Receiver1();
+        Receiver2 receiver2 = new Receiver2();
+
         void Start()
         {
-            receiver.RegisterDelegates();
 
-            EventManger.Instance.SendEvent(EventType.UIEvent, (int)UIEventEnum.Start_Game, 1);
         }
 
         void Update()
         {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                //EventManger.Instance.SendEvent(EventType.UI_Event1, 1);
+
+                EventManger.Instance.SendEvent(EventType.UI_Event1, "666");
+
+                EventManger.Instance.SendEvent(EventType.UI_Event1, new GameObject());
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                EventManger.Instance.SendEvent(EventType.UI_Event2, new GameObject(), new GameObject());
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                EventManger.Instance.RegisterEvent(EventType.UI_Event3, receiver1.OnEventProcess3);
+                EventManger.Instance.RegisterEvent(EventType.UI_Event3, receiver1.OnEventProcess4);
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad3))
+            {
+                EventManger.Instance.SendEvent(EventType.UI_Event3, 666);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                EventManger.Instance.UnRegisterEvent(EventType.UI_Event3, receiver1.OnEventProcess3);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                EventManger.Instance.UnRegisterEvent(EventType.UI_Event3);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                EventManger.Instance.RegisterEvent(EventType.UI_Event4, receiver2.OnEventProcess4);
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad6))
+            {
+                GameObject msgObj = new GameObject();
+                //多个消息参数
+                EventManger.Instance.SendEvent(EventType.UI_Event4, 666, "hello", msgObj);
+            }
 
         }
 
+        void OnEnable()
+        {
+            receiver1.RegisterDelegates();
+            receiver2.RegisterDelegates();
+        }
+
+        void OnDisable()
+        {
+            receiver1.UnRegisterDelegates();
+            receiver2.RegisterDelegates();
+        }
     }
 
-    public class Receiver
+    public class Receiver1
     {
         public void RegisterDelegates()
         {
-            EventManger.Instance.RegisterEventHandler(EventHandlerType.UI, ProcessEvent);
+            EventManger.Instance.RegisterEvent(EventType.UI_Event1, OnEventProcess1);
+            EventManger.Instance.RegisterEvent(EventType.UI_Event2, OnEventProcess1);
         }
 
 
-        private void ProcessEvent(BaseEventMsg msg)
+        public void UnRegisterDelegates()
         {
+            EventManger.Instance.UnRegisterEvent(EventType.UI_Event1);
+            EventManger.Instance.UnRegisterEvent(EventType.UI_Event2);
+        }
+
+        private void OnEventProcess1(BaseEventMsg msg)
+        {
+            Debug.Log("Receiver1! OnEventProcess1");
+
+
             if (msg != null && msg.Params.Length > 0)
             {
-                int data = (int)msg.Params[0];
-                Debug.Log("recieve! data=" + data.ToString());
-            }
-           
-        }
-    }
+                //                 int data = Convert.ToInt32(msg.Params[0]);
+                //                 Debug.Log("Receiver1! data= int:" + data);
 
-    public enum EventHandlerType
-    {
-        //传递UI消息
-        UI = 0,
-        Render,
-    }
-
-    public enum EventType
-    {
-        None = -1,
-        UIEvent = 1,
-        RnederEvent = 2,
-    }
-
-
-    public enum UIEventEnum
-    {
-        None = -1,
-        Start_Game = 1,
-    }
-
-
-    public class BaseEventMsg
-    {
-        public uint CommandID;
-        public EventType MsgType;
-        public int Sequence;
-        public object[] Params = null;
-
-        public BaseEventMsg()
-        {
-
-        }
-
-        public BaseEventMsg(uint inCommandID, EventType inMsgType, params object[] InParams)
-        {
-            CommandID = inCommandID;
-            MsgType = inMsgType;
-            //SimpleParam = para1;
-            Params = InParams;
-        }
-
-        public void SetEventMsg(uint inCommandID, EventType inMsgType, params object[] InParams)
-        {
-            CommandID = inCommandID;
-            MsgType = inMsgType;
-            //SimpleParam = SimpleGenericParam.NullParam;
-            Params = InParams;
-        }
-
-        public BaseEventMsg(uint inCommandID, EventType inMsgType)
-        {
-            CommandID = inCommandID;
-            MsgType = inMsgType;
-        }
-    }
-
-
-    public class EventManger
-    {
-        private static EventManger _Instance;
-        public static EventManger Instance
-        {
-            get
-            {
-                if (_Instance == null)
+                var data0 = msg.Params[0] as string;
+                if (data0 != null)
                 {
-                    _Instance = new EventManger();
+                    Debug.Log("Receiver1! data= string:" + data0);
                 }
-                return _Instance;
-            }
-        }
 
-        public delegate void EventHandler(BaseEventMsg Msg);
-
-
-        /// <summary>
-        /// 注册事件的处理Handler
-        /// </summary>
-        /// <param name="InType"></param>
-        /// <param name="eventHandler"></param>
-        public void RegisterEventHandler(EventHandlerType InType, EventHandler eventHandler)
-        {
-            if (InType == EventHandlerType.UI)
-            {
-                m_UIEventHandler = eventHandler;
-            }
-            else if (InType == EventHandlerType.Render)
-            {
-                m_NetWorkEventHandler = eventHandler;
-            }
-
-        }
-
-        /// <summary>
-        /// 反注册事件的处理Handler
-        /// </summary>
-        public void UnRegisterEventHandler(EventHandlerType InType)
-        {
-            // EventHandlers[(int)InType] = null;
-
-            if (InType == EventHandlerType.UI)
-            {
-                m_UIEventHandler = null;
-            }
-            else if (InType == EventHandlerType.Render)
-            {
-                m_NetWorkEventHandler = null;
-            }
-
-        }
-        private EventHandler m_UIEventHandler = null;
-        private EventHandler m_NetWorkEventHandler = null;
-
-
-        /// <summary>
-        /// 发送事件
-        /// </summary>
-        public void SendEvent(EventType Handles, BaseEventMsg Msg, bool IsProtocolEvent = false)
-        {
-            if (Handles == EventType.UIEvent)
-            {
-                if (m_UIEventHandler != null)
+                var data1 = msg.Params[0] as GameObject;
+                if (data1 != null)
                 {
-                    m_UIEventHandler(Msg);
+                    Debug.Log("Receiver1! data= GameObject:" + data1);
                 }
-            }
-            else if (Handles == EventType.RnederEvent)
-            {
-                if (m_NetWorkEventHandler != null)
-                {
-                    m_NetWorkEventHandler(Msg);
-                }
+
+
+
+                //Debug.Log("Receiver1!");
+                //int data = (int)msg.Params[0];
+                //Debug.Log("Receiver1! data=" + data.ToString());
             }
         }
 
-        public void SendEvent(EventType HandleType, uint CommandID, params object[] inParams)
+        private void OnEventProcess2(BaseEventMsg msg)
         {
-            BaseEventMsg Msg = new BaseEventMsg();
-            if (Msg != null)
+            Debug.Log("Receiver1! OnEventProcess2");
+        }
+
+        public void OnEventProcess3(BaseEventMsg msg)
+        {
+            int data = Convert.ToInt32(msg.Params[0]);
+            Debug.Log("Receiver1! data= int:" + data);
+
+            Debug.Log("Receiver1! OnEventProcess3 int = " + data.ToString());
+        }
+        public void OnEventProcess4(BaseEventMsg msg)
+        {
+            Debug.Log("Receiver1! OnEventProcess4");
+        }
+
+    }
+
+
+    public class Receiver2
+    {
+        public void RegisterDelegates()
+        {
+            EventManger.Instance.RegisterEvent(EventType.UI_Event1, OnEventProcess1);
+            EventManger.Instance.RegisterEvent(EventType.UI_Event2, OnEventProcess2);
+        }
+
+
+        public void UnRegisterDelegates()
+        {
+            EventManger.Instance.UnRegisterEvent(EventType.UI_Event1);
+        }
+
+        private void OnEventProcess1(BaseEventMsg msg)
+        {
+            Debug.Log("Receiver2! OnEventProcess1");
+            if (msg != null && msg.Params.Length > 0)
             {
-                Msg.SetEventMsg(CommandID, HandleType, inParams);
-                SendEvent(HandleType, Msg);
             }
         }
+
+        private void OnEventProcess2(BaseEventMsg msg)
+        {
+            Debug.Log("Receiver2! OnEventProcess2");
+        }
+
+        public void OnEventProcess3(BaseEventMsg msg)
+        {
+            Debug.Log("Receiver2! OnEventProcess3");
+        }
+
+        public void OnEventProcess4(BaseEventMsg msg)
+        {
+            Debug.Log("Receiver2! OnEventProcess4");
+
+            if (msg != null && msg.Params.Length > 2)
+            {
+
+                int data1 = (int)msg.Params[0];
+
+                string data2 = msg.Params[1] as string;
+
+                GameObject data3 = msg.Params[2] as GameObject;
+
+                if (data2 != null && data3 != null)
+                {
+                    Debug.Log("Receiver2! OnEventProcess4 DATA:" +
+                        "Data1= String" + data1.ToString() +
+                        ", Data2= string :" + data2 +
+                        ", Data3 GameObject :" + data3.name);
+                }
+
+
+            }
+
+
+        }
+
     }
 
 }
