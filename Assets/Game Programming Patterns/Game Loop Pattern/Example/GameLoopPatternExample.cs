@@ -18,7 +18,7 @@ namespace GameLoopPatternExample
         {
             //进行游戏循环
             //DoGameLoop();
-            Debug.Log("Unity已经内建了游戏循环模式，即Update( )，自己实现会导致卡死。这边仅保留代码框架，不作调用");
+            Debug.Log("Unity已经内建了游戏循环模式，即Update( )，按《游戏编程模式》书中的原版实现会导致卡死。这边仅保留代码框架，不作调用。");
         }
 
         void Update()
@@ -71,15 +71,15 @@ namespace GameLoopPatternExample
                 double elapsed = current - previous;
                 previous = current;
                 lag += elapsed;
-                //ProcessInput();
+                ProcessInput();
 
                 while (lag >= MS_PER_UPDATE)
                 {
-                    //Update();
+                    Update();
                     lag -= MS_PER_UPDATE;
                 }
 
-                //Render();
+                Render();
             }
         }
 
