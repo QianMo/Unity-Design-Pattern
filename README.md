@@ -49,6 +49,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * [Type Object Pattern 类型对象模式]
 * [Component Pattern 组件模式]
 * [Event Queue Pattern 事件队列模式]
+* [Game Loop Pattern 游戏循环模式]
 
 <br> 
 
@@ -92,6 +93,7 @@ This repository is about cool design patterns written in Unity3D C#.
 [Type Object Pattern 类型对象模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Type%20Object%20Pattern
 [Component Pattern 组件模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Component%20Pattern
 [Event Queue Pattern 事件队列模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Event%20Queue%20Pattern
+[Game Loop Pattern 游戏循环模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Game%20Loop%20Pattern
 
 
 
