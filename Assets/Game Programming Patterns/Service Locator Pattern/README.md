@@ -1,4 +1,4 @@
-# Event Queue Pattern 事件队列模式
+# Service Locator Pattern 服务定位器模式
 
 ## Intent 意义
 
