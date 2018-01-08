@@ -51,6 +51,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * [Event Queue Pattern 事件队列模式]
 * [Game Loop Pattern 游戏循环模式]
 * [Service Locator Pattern 服务定位器模式]
+* [Data Locality Pattern 数据局部性模式]
 
 <br> 
 
@@ -97,7 +98,8 @@ This repository is about cool design patterns written in Unity3D C#.
 [Game Loop Pattern 游戏循环模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Game%20Loop%20Pattern
 [Service Locator Pattern 服务定位器模式]:
 https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Service%20Locator%20Pattern
-
+[Data Locality Pattern 数据局部性模式]:
+https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Data%20Locality%20Pattern
 
 
 
