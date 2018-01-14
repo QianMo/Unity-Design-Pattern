@@ -4,7 +4,7 @@
 
 Avoid unnecessary work by deferring it until the result is needed.
 <br>
-通过合理组织数据利用CPU的缓存机制来加快内存访问速度。
+将工作推迟到必要时进行以避免不必要的工作。
 
 
 
