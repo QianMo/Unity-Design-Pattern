@@ -7,7 +7,7 @@ using System.Collections;
 
 public class AbstractFactoryStructrue : MonoBehaviour
 {
-	void Start ( )
+    void Start()
     {
         // Abstract factory #1
         AbstractFactory factory1 = new ConcreteFactory1();
@@ -91,7 +91,7 @@ class ProductB1 : AbstractProductB
 {
     public override void Interact(AbstractProductA a)
     {
-      Debug.Log(this.GetType().Name +" interacts with " + a.GetType().Name);
+        Debug.Log(this.GetType().Name + " interacts with " + a.GetType().Name);
     }
 }
 
@@ -109,7 +109,7 @@ class ProductB2 : AbstractProductB
 {
     public override void Interact(AbstractProductA a)
     {
-      Debug.Log(this.GetType().Name +" interacts with " + a.GetType().Name);
+        Debug.Log(this.GetType().Name + " interacts with " + a.GetType().Name);
     }
 }
 
