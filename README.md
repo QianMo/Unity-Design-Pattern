@@ -53,7 +53,7 @@ This repository is about cool design patterns written in Unity3D C#.
 * [Service Locator Pattern 服务定位器模式]
 * [Data Locality Pattern 数据局部性模式]
 * [Dirty Flag Pattern 脏标记模式]
-
+* [Object Pool Pattern 对象池模式]
 <br> 
 
 # Reference resources(参考)
@@ -103,6 +103,8 @@ https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Program
 https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Data%20Locality%20Pattern
 [Dirty Flag Pattern 脏标记模式]:
 https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Dirty%20Flag%20Pattern
+[Object Pool Pattern 对象池模式]:
+https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Object%20Pool%20Pattern
 
 
 
