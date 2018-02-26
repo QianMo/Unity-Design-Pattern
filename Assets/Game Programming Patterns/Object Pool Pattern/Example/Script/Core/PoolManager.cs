@@ -194,7 +194,7 @@ namespace ObjectPoolPatternExample
         {
             //检测对象池是否重名 | check for duplicate names
             CheckForDuplicatePoolNames();
-            //场景对象池 | create pools
+            //创建对象池 | create pools
             CreatePools();
         }
 
