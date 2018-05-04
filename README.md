@@ -1,3 +1,5 @@
+![](Media/repo-cover.jpg)
+
 # Design Patterns Written in Unity3D
 This repository is about cool design patterns written in Unity3D C#. 
 * Now 23 [Gang of Four Patterns] have all been finished in Unity3D in this repository.
