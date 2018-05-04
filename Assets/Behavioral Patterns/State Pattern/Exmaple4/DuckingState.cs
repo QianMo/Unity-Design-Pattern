@@ -22,9 +22,14 @@ public class DuckingState : HeroineBaseState
 
     public void HandleInput()
     {
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            Debug.Log("get GetKeyUp.DownArrow!");
+            Debug.Log("已经在下蹲躲避状态中！");
+            return;
+        }
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            Debug.Log("get GetKeyUp.UpArrow!");
             _heroine.SetHeroineState(new StandingState(_heroine));
         }
     }
