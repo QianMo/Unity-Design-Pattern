@@ -10,7 +10,8 @@ namespace ObjectPoolPatternExample
         //池名称
         public string poolName;
         //对象List
-        public List<GameObject> ObjectList = new List<GameObject>();
+        // public List<GameObject> ObjectList = new List<GameObject>();
+        public List<PoolObject> ObjectList = new List<PoolObject>();
 
         public void Start()
         {
@@ -37,10 +38,10 @@ namespace ObjectPoolPatternExample
             pos.y = 0f;
             pos.z = Random.Range(-5, 6);
 
-            GameObject go = PoolManager.Instance.GetObjectFromPool(poolName, pos, Quaternion.identity);
-            if (go)
+            PoolObject po = PoolManager.Instance.GetObjectFromPool(poolName, pos, Quaternion.identity);
+            if (po)
             {
-                ObjectList.Add(go);
+                ObjectList.Add(po);
             }
         }
 
@@ -68,9 +69,9 @@ namespace ObjectPoolPatternExample
                 return;
             }
 
-            foreach (GameObject go in ObjectList)
+            foreach (PoolObject po in ObjectList)
             {
-                PoolManager.Instance.ReturnObjectToPool(go);
+                PoolManager.Instance.ReturnObjectToPool(po);
             }
             ObjectList.Clear();
         }

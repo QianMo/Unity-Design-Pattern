@@ -77,7 +77,7 @@ namespace ObjectPoolPatternExample
         /// <param name="position"></param>
         /// <param name="rotation"></param>
         /// <returns></returns>
-        public GameObject NextAvailableObject(Vector3 position, Quaternion rotation)
+        public PoolObject NextAvailableObject(Vector3 position, Quaternion rotation)
         {
             PoolObject po = null;
             //池中有可用对象，直接从池中取
@@ -111,8 +111,9 @@ namespace ObjectPoolPatternExample
                 result.transform.rotation = rotation;
             }
 
-            return result;
-        }
+            return po;
+
+            }
 
         /// <summary>
         /// 将指定对象返回池中，复杂度o(1)
@@ -247,9 +248,10 @@ namespace ObjectPoolPatternExample
         /// <param name="position">位置</param>
         /// <param name="rotation">rotation</param>
         /// <returns></returns>
-        public GameObject GetObjectFromPool(string poolName, Vector3 position, Quaternion rotation)
+        public PoolObject GetObjectFromPool(string poolName, Vector3 position, Quaternion rotation)
         {
-            GameObject result = null;
+            //GameObject result = null;
+            PoolObject result = null;
 
             if (poolMap.ContainsKey(poolName))
             {
@@ -270,12 +272,12 @@ namespace ObjectPoolPatternExample
             return result;
         }
 
-        public void ReturnObjectToPool(GameObject go)
+        public void ReturnObjectToPool(PoolObject po)
         {
-            PoolObject po = go.GetComponent<PoolObject>();
+            //PoolObject po = go.GetComponent<PoolObject>();
             if (po == null)
             {
-                Debug.LogWarning("Specified object is not a pooled instance: " + go.name);
+                Debug.LogWarning("Specified object is not a pooled instance: " + po.name);
             }
             else
             {
